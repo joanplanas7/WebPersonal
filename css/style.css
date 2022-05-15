@@ -68,8 +68,38 @@ body {
     color: #2A3364;
 }
 
-/* sobre mi */
 
+/* sobre mi */
+.main{
+    margin-top: 5%;
+}
+
+.main h1{
+    font-size: 3em;
+}
+
+/* contacte */
+
+/* footer */
+
+.footerPers{
+    text-align: center;
+    background-color: darkcyan;
+    color: white;
+    height: 130px;
+}
+
+.copy{
+    font-size: 18px;
+}
+.footerXarxes i{
+    font-size: 30px;
+    padding: 0 15px;
+}
+.footerXarxes a{
+    text-decoration: none;
+    color: white;
+}
 
 
 
