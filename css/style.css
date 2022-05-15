@@ -15,7 +15,7 @@ body {
 .wrapper{
   
     height: 100vh;
-    background-color:#2A3364;
+    background-color:#0B4B48;
     color: white;
 }
 
@@ -29,18 +29,17 @@ body {
 .inicials{
     margin-right: 10px;
     margin-left: 10px;
+    color: #212058;
 }
 
 .inicials span{
-    color: #172052;
+    color: white;
 }
 
 
-
+/* menuu*/
 .menu{
     float: right;
-
-
 }
 
 .menu li{
@@ -68,6 +67,10 @@ body {
     background-color: cadetblue;
     color: #2A3364;
 }
+
+/* sobre mi */
+
+
 
 
 
