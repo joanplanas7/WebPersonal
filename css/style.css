@@ -3,9 +3,7 @@
 /*General styles*/
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+ 
 }
 
 body {
@@ -15,7 +13,7 @@ body {
 
 /*wrapper de la web style*/
 .wrapper{
-    width: 100%;
+  
     height: 100vh;
     background-color:#2A3364;
     color: white;
@@ -23,40 +21,59 @@ body {
 
 /*navbar style*/
 .navbar{
-    display: flex;
     justify-content: space-between;
-    padding: 2%;
+    background-color:darkcyan;
 }
 
 /*Lletras  header dreta style*/
+.inicials{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 .inicials span{
-    color: red;
+    color: #172052;
 }
 
 
-/*Menu styles*/
+
 .menu{
-    display: flex;
-    width: 70%;
-    justify-content: space-around;
+    float: right;
+
+
 }
+
 .menu li{
-    list-style: none;
+    padding: 10px 20px;
+    
 }
 .menu a{
     color: white;
-    text-decoration: none;
-    padding: 10px 20px;
+    text-align:center;
 }
-
-.menu a:hover{
+.menu li:hover{
     background-color: cadetblue;
     color: #2A3364;
-    transition: ease-in .4s;
 }
 
 .menu .activat{
     color: rgb(166, 166, 235);
 }
+
+.menu ul{
+    background-color: darkcyan;
+}
+
+.menu ul li a:hover{
+    background-color: cadetblue;
+    color: #2A3364;
+}
+
+
+
+
+
+
+
 
 
