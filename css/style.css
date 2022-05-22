@@ -3,20 +3,36 @@
 /*General styles*/
 
 * {
- 
+ padding: 0 0;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden;
+  position: relative;
 }
 
-/*wrapper de la web style*/
-.wrapper{
-  
+
+/*pagines de la web style*/
+.pagInici{
     height: 100%;
     background-color:#0B4B48;
     color: white;
+}
+
+.pagEstudis{
+    height: 100%;
+    background-color: white;
+}
+
+.pagExp{
+    height: 100%;
+    background-color: #0B4B48;
+}
+
+.pagProjectes{
+    height: 100%;
+    background-color: white;  
 }
 
 /*navbar style*/
@@ -38,6 +54,7 @@ body {
 
 
 /* menuu*/
+
 .menu{
     float: right;
 }
@@ -70,9 +87,8 @@ body {
 
 /* main */
 .main{
-    height: 70vh;
+    height: 80vh;
 }
-
 /* sobre mi */
 .sobreMiClass{
     margin-top: 10%;
@@ -80,6 +96,9 @@ body {
 
 .sobreMiClass h1{
     font-size: 3em;
+}
+.sobreMiClass a:hover{
+    text-decoration: underline;
 }
 
 /* contacte */
@@ -97,6 +116,45 @@ body {
     text-decoration: none;
     color: white;
 }
+
+/* estudis */
+
+.estudisClass{
+    height: 100%;
+}
+.estudisClass h1{
+    font-size: 3em;
+    margin-top: 8%;
+}
+
+/* experiencia */
+.expClass{
+    height: 100%;
+}
+.expClass h1{
+    font-size: 3em;
+    margin-top: 8%;
+}
+
+/* habilitats */
+.habClass{
+    height: 100%;
+    margin-bottom: 100px;
+}
+.habClass h1{
+    font-size: 2em;
+    margin-top: 5%;
+}
+
+
+
+
+/*targetas*/
+.tarjetasEspai{
+    margin-top: 2%;
+}
+
+
 /* footer */
 
 .footerPers{
@@ -104,6 +162,8 @@ body {
     background-color: darkcyan;
     color: white;
     height: 130px;
+    bottom: 0;
+    position: relative;
 }
 
 .copy{
@@ -118,12 +178,16 @@ body {
     color: white;
 }
 
+.espai{
+    margin-top: 20%;
+}
 
-
-
-
-
-
-
-
-
+/*Aliniar correu be en totes les mides.  */
+@media (min-width: 768px) and (max-width: 993px) {
+    .contacte i{
+        font-size: 15px;
+    }
+    .contacte span{
+       font-size: 18px;
+    }
+}
