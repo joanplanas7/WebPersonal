@@ -13,49 +13,42 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
-<div class="pagInici" id="sobreMi">
-    <header>
-        <!--Tot el menu-->
-        <nav class="navbar navbar-expand-md bg">
-            <div class="container-fluid">
-                <div class="inicials">
-                    <div class="row col-md-12">
-                        <h1>Web <span>Personal</span></h1>
-                    </div>
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                <div class="collapse navbar-collapse menu " id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item ">
-                            <a class="nav-link" href="#estudis">Estudis</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link" href="#exp">Experiencia</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects">Habilitats</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Descarregar CV
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a href="./curriculum/CurriculumCatJoanPlanas.pdf" download="CurriculumJoanPlanasCAT" target="_blank" class="dropdown-item">CV Catala</a></li>
-                                <li><a href="./curriculum/CurriculumEspJoanPlanas.pdf" download="CurriculumJoanPlanasESP" target="_blank" class="dropdown-item">CV Castella</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
+
+<header>
+    <!--Tot el menu-->
+    <nav class="navbar navbar-expand-md bg movilidad">
+        <div class="container-fluid">
+            <div class="inicials">
+                <div class="row col-md-12">
+                    <h1 class="lletras">Web <span>Personal</span></h1>
+                 </div>
             </div>
-          </nav>
-    </header>
-
-
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+                 </button>
+            <div class="collapse navbar-collapse menu " id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobreMi">Sobre mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#estudis">Estudis</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#exp">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Habilitats</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="pagInici" id="sobreMi">
     <main class="main container">
-
+        <p style="visibility: hidden">h</p>
         <!--Sobre mi, a la pagina principal-->
         <div class="sobreMiClass row">
             <div class="informacio col-sm-12 col-md-6">
@@ -65,13 +58,23 @@
                     experiència laboral, però estic molt motivat per aprendre cada vegada més sobre el món 
                     de la programació i agafar més experiència.
                 </p>
+
+                <li class="nav-item dropdown">
+                    <a class="btn-danger" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Descarregar CV
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a href="./curriculum/CurriculumCatJoanPlanas.pdf" download="CurriculumJoanPlanasCAT" target="_blank" class="dropdown-item">CV Catala</a></li>
+                        <li><a href="./curriculum/CurriculumEspJoanPlanas.pdf" download="CurriculumJoanPlanasESP" target="_blank" class="dropdown-item">CV Castella</a></li>
+                    </ul>
+                </li>
             </div>
 
             <div class="contacte col-sm-12 col-md-5 offset-md-1">
                 <h1>Contacte</h1>
                 <i class="fa-solid fa-phone"></i><span>626 835 513</span> <br>
                 <i class="fa-solid fa-envelope"></i><span>joanplanasole@gmail.com</span> <br>
-                <i class="fab fa-linkedin"></i><a href=""><span>Enllaç al meu Linkedin</span></a> <br>
+                <i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/joanplanasdeveloper/" target="_blank"><span>Enllaç al meu Linkedin</span></a> <br>
             </div>
         </div>
 
@@ -86,10 +89,10 @@
             <h1>Estudis</h1>
             <div class="row row-cols-1 row-cols-md-3 g-4 tarjetasEspai">
                 <div class="col">
-                    <div class="card">
+                    <div class="card h-100">
                         <div class="card-body">
-                            <h5 class="card-title">CETI</h5>
-                            <p class="card-text">Ciberseguretat en Entorns de les Tecnologies de la Informació, curs d'especialització.<br>Institut Lacetània, Manresa.</p>
+                            <h5 class="card-title"><b>CETI</b></h5>
+                            <p class="card-text">Ciberseguretat en Entorns de les Tecnologies de la Informació, <b>curs d'especialització</b>.<br>Institut Lacetània, Manresa.</p>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">2021-2022</small>
@@ -97,10 +100,10 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card h-100">
                         <div class="card-body">
-                            <h5 class="card-title">DAM</h5>
-                            <p class="card-text">Desenvolupament d’aplicacions multiplataforma, Cicle formatiu de Grau Superior.<br>IES Castellet de Sant Viçens.</p>
+                            <h5 class="card-title"><b>DAM</b></h5>
+                            <p class="card-text">Desenvolupament d’aplicacions multiplataforma, <b>Cicle formatiu de Grau Superior</b>.<br>IES Castellet de Sant Viçens.</p>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">2019-2021</small>
@@ -108,10 +111,10 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card h-100">
                         <div class="card-body">
-                            <h5 class="card-title">SMIX</h5>
-                            <p class="card-text">Sistemes Microinformàtics i xarxes, Cicle formatiu de Grau Mitjà.<br><br>Escola Xarxa de Berga.</p>
+                            <h5 class="card-title"><b>SMIX</b></h5>
+                            <p class="card-text">Sistemes Microinformàtics i xarxes, <b>Cicle formatiu de Grau Mitjà</b>.<br>Escola Xarxa de Berga.</p>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">2017-2019</small>
@@ -130,9 +133,9 @@
             <h1>Exp</h1>
             <div class="row row-cols-1 row-cols-md-3 g-4 tarjetasEspai">
                 <div class="col">
-                    <div class="card">
+                    <div class="card h-100">
                         <div class="card-body">
-                            <h5 class="card-title">Pràctiques a la FUB Manresa - UMnaresa</h5>
+                            <h5 class="card-title"><b>Pràctiques a la FUB Manresa - UMnaresa</b></h5>
                             <p class="card-text">En les pràctiques del curs de ciberseguretat vaig realitzar un pentesting a la FUB de Manresa. </p>
                         </div>
                         <div class="card-footer">
@@ -141,9 +144,9 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card h-100">
                         <div class="card-body">
-                            <h5 class="card-title">Pràctiques al Secretariat de Federacions ADF a Catalunya</h5>
+                            <h5 class="card-title"><b>Pràctiques al Secretariat de Federacions ADF a Catalunya</b></h5>
                             <p class="card-text">En aquestes pràctiques vaig passar una base de dades amb Access, a MySQL. També vaig crear una web amb Laravel 8 per gestionar-la.</p>
                         </div>
                         <div class="card-footer">
@@ -152,9 +155,9 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card h-100">
                         <div class="card-body">
-                            <h5 class="card-title">Pràctiques a l’arxiu comarcal de Berga</h5>
+                            <h5 class="card-title"><b>Pràctiques a l’arxiu comarcal de Berga</b></h5>
                             <p class="card-text">En aquest centre bàsicament ajudava en el manteniment de sistemes i executava tasques d'ofimàtica. <br></p>
                         </div>
                         <div class="card-footer">

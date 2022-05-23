@@ -35,7 +35,16 @@ body {
     background-color: white;  
 }
 
+
 /*navbar style*/
+
+
+.movilidad{
+    position: fixed;
+    width: 100%;
+    font-weight: bold;
+}
+
 .navbar{
     justify-content: space-between;
     background-color:darkcyan;
@@ -53,8 +62,8 @@ body {
 }
 
 
-/* menuu*/
 
+/* menuu*/
 .menu{
     float: right;
 }
@@ -66,6 +75,8 @@ body {
 .menu a{
     color: white;
     text-align:center;
+    height: 100%;
+    width: 100%;
 }
 .menu li:hover{
     background-color: cadetblue;
@@ -85,13 +96,29 @@ body {
     color: #2A3364;
 }
 
+    /* menu quan es mou */
+    .movilidad.active{
+        z-index: 2;
+    }
+
+    .movilidad.active .lletras{
+        font-size: 20px;
+    }
+
+    @media (min-width: 768px){
+        .movilidad.active{
+            z-index: 2;
+            height: 85px;
+        }
+    }
+   
 /* main */
 .main{
-    height: 80vh;
+    height: 100vh;
 }
 /* sobre mi */
 .sobreMiClass{
-    margin-top: 10%;
+    margin-top: 20%;
 }
 
 .sobreMiClass h1{
