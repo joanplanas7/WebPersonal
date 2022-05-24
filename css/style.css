@@ -83,18 +83,7 @@ body {
     color: #2A3364;
 }
 
-.menu .activat{
-    color: rgb(166, 166, 235);
-}
 
-.menu ul{
-    background-color: darkcyan;
-}
-
-.menu ul li a:hover{
-    background-color: cadetblue;
-    color: #2A3364;
-}
 
     /* menu quan es mou */
     .movilidad.active{
@@ -127,6 +116,11 @@ body {
 .sobreMiClass a:hover{
     text-decoration: underline;
 }
+.curriculum{
+    list-style: none;
+    
+}
+
 
 /* contacte */
 
@@ -134,6 +128,7 @@ body {
     margin-left: 15px;
     font-size: 20px;
 }
+
 .contacte span{
    margin-left: 30px;
    font-size: 20px;
@@ -144,6 +139,30 @@ body {
     color: white;
 }
 
+
+@media (max-width: 768px){
+    .contacte{
+        margin-top: 10%;
+    }
+}
+
+
+.botonsCurr{
+    margin-left: 10px;
+}
+@media (min-width: 768px) and (max-width: 991px ){
+    .curriculum a{
+        font-size: 12px;
+     }
+}
+@media (max-width: 450px){
+    .botonsCurr{
+        margin-left: 0px;
+    }
+    .curriculum a{
+            margin-top: 10px;
+    }
+}
 /* estudis */
 
 .estudisClass{
@@ -151,7 +170,7 @@ body {
 }
 .estudisClass h1{
     font-size: 3em;
-    margin-top: 8%;
+    margin-top: 10%;
 }
 
 /* experiencia */
@@ -160,7 +179,7 @@ body {
 }
 .expClass h1{
     font-size: 3em;
-    margin-top: 8%;
+    margin-top: 10%;
 }
 
 /* habilitats */
@@ -170,7 +189,7 @@ body {
 }
 .habClass h1{
     font-size: 2em;
-    margin-top: 5%;
+    margin-top: 8%;
 }
 
 
@@ -206,7 +225,7 @@ body {
 }
 
 .espai{
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 /*Aliniar correu be en totes les mides.  */
