@@ -10,6 +10,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden;
   position: relative;
+  background-color:#DBDFFD;
 }
 
 
@@ -22,7 +23,7 @@ body {
 
 .pagEstudis{
     height: 100%;
-    background-color: white;
+    background-color: #DBDFFD;
 }
 
 .pagExp{
@@ -32,7 +33,7 @@ body {
 
 .pagProjectes{
     height: 100%;
-    background-color: white;  
+    background-color: #DBDFFD;  
 }
 
 
@@ -103,11 +104,11 @@ body {
    
 /* main */
 .main{
-    height: 100vh;
+    height: 100%;
 }
 /* sobre mi */
 .sobreMiClass{
-    margin-top: 20%;
+    margin-top: 25%;
 }
 
 .sobreMiClass h1{
@@ -176,11 +177,17 @@ body {
 /* experiencia */
 .expClass{
     height: 100%;
+    color: white;
 }
 .expClass h1{
     font-size: 3em;
     margin-top: 10%;
 }
+.expClass .card{
+    background-color:#0B4B48;
+    border-width: 3px;
+}
+
 
 /* habilitats */
 .habClass{
@@ -226,6 +233,8 @@ body {
 
 .espai{
     margin-top: 10%;
+    height: 0px;
+    width: 0px;
 }
 
 /*Aliniar correu be en totes les mides.  */
