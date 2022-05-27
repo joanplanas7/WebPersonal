@@ -9,7 +9,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden;
   position: relative;
-  background-color:#DBDFFD;
+  background-color:#e2e3ee;
 }
 /*pagines de la web style*/
 .pagInici{
@@ -20,7 +20,7 @@ body {
 
 .pagEstudis{
     height: 100%;
-    background-color: #DBDFFD;
+    background-color: #e2e3ee;
 }
 
 .pagExp{
@@ -30,7 +30,7 @@ body {
 
 .pagProjectes{
     height: 100%;
-    background-color: #DBDFFD;  
+    background-color: #e2e3ee;  
 }
 
 
