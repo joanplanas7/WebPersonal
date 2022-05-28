@@ -1,0 +1,15 @@
+{
+    "menu": {
+        "SobreMi": "Sobre mi",
+        "estudis": "Estudis",
+        "exp": "Experiència",
+        "projectes": "Projectes"
+    },
+    "sobreMi": {
+        "desc": "Soc un programador que ha acabat els estudis aquest any. Tinc 21 anys i no tinc gaire experiència laboral, però estic molt motivat per aprendre cada vegada més sobre el món de la programació i agafar més experiència.",
+        "botCat": "Descarregar CV Català",
+        "botEsp": "Descarregar CV Castellà",
+        "contacte": "Contacte",
+        "enll": "Enllaç del meu LinkedIn"
+    }
+}

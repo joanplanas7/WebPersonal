@@ -46,6 +46,7 @@ body {
 .navbar{
     justify-content: space-between;
     background-color:darkcyan;
+    z-index: 2;
 }
 
 /*Lletras  header dreta style*/
@@ -95,10 +96,32 @@ body {
     @media (min-width: 768px){
         .movilidad.active{
             z-index: 2;
-            height: 85px;
+            height: 88px;
         }
     }
+
+.containerIcon{
+    text-align: center;
+}
+.itemsIcon{
+    display: inline-block;
+}
    
+.iconos{
+    height: 30px;
+    margin-left: 10px;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+.languageActive{
+    border: 3px solid;
+    color: black;
+    height: 35px;
+}
+
 /* main */
 .main{
     height: 100%;
