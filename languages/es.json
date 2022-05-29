@@ -4,5 +4,53 @@
         "estudis": "Estudios",
         "exp": "Experiencia",
         "projectes": "Proyectos"
+    },
+    "sobreMiSeccio": {
+        "desc": "Soy un programador que ha terminado los estudios este año. Tengo 21 años y no tengo mucha experiencia laboral, pero estoy muy motivado para aprender cada vez más sobre el mundo de la programación y coger más experiencia.",
+        "botCat": "Descarregar CV Catalán",
+        "botEsp": "Descarregar CV Castellano",
+        "contacte": "Contacto",
+        "enll": "Enlace de mi LinkedIn"
+    },
+    "estudisSeccio":{
+        "titol": "Estudios",
+        "ceti": "Ciberseguridad en Entornos de las Tecnologías de la Información, <b>curso de especialización</b>.<br>Institut Lacetània, Manresa.",
+        "dam": "Desarrollo de aplicaciones multiplataforma, <b>Ciclo formativo de Grado Superior</b>.<br>IES Castellet de Sant Viçens.",
+        "smix":"Sistemas Microinformáticos y redes, <b>Ciclo formativo de Grado Medio</b>.<br>Escuela Xarxa de Berga."
+    },
+    "expSeccio": {
+        "titol": "Experiencia laboral",
+        "fubTitol": "<b>Prácticas en la FUB Manresa - UManresa</b>",
+        "adfTitol": "<b>Prácticas en el Secretariado de Federaciones ADF en Cataluña</b>",
+        "arxiuTitol": "<b>Prácticas en el archivo comarcal de Berga</b>",
+        "fub": "En las prácticas del curso de ciberseguridad realicé un pentesting en la FUB de Manresa.",
+        "adf": "En estas prácticas pasé una base de datos con Access, a MySQL. También creé una web con Laravel 8 para gestionarla.",
+        "arxiu": "En ese centro básicamente ayudaba en el mantenimiento de sistemas y ejecutaba tareas de ofimática."
+    },
+    "projectesSeccio": {
+        "titolLar": "<b>Proyectos Laravel: </b>",
+        "titolAn": "<b>Proyectos Angular: </b>",
+        "titolPy": "<b>Proyectos Python: </b>",
+        "titolAltres": "<b>Otros proyectos: </b>",
+        "titolFut": "Base de datos futbolistas",
+        "titolFinal": "Proyecto final de curso de DAM",
+        "titolAnime": "Personajes anime",
+        "titolXat": "Chat grupal",
+        "titolBot": "Bot de Telegram",
+        "titolCalc": "Calculadora de presupuesto",
+        "titolBiblio": "Web biblioteca",
+        "fut": "Esta web está creada con Laravel y una base de datos MySQL. Básicamente, nos permite añadir jugadores de fútbol a una base de datos y consultar a estos futbolistas",
+        "final": "En mi proyecto de fin de curso realicé una web creada con Laravel 8 y una base de datos con MySQL. Esta web está hecha para subir mis proyectos de juegos y aplicaciones, y que los usuarios registrados puedan descargárselas y puntuarlas. También hay un apartado donde puede encontrar aplicaciones generadas por otras personas.",
+        "spoti": "Web creada con Angular, en la que utilizo la api de Spotify para poder buscar artistas y canciones.",
+        "anime": "Proyecto creado con Angular donde puedes consultar a personajes del anime One Piece.",
+        "asteroids": "Juego de Python en el que tienes que destruir y esquivar esteroides.",
+        "xat": "Chat grupal creado con Python, en el que hay un servidor y puedes abrir todos los chats que quieras. El servidor le avisa cuando se conecta a alguien nuevo y cuando se desconecta la gente.",
+        "bot": "Bot de Telegram programado con Python y una base de datos SQLite. En este bot puedes jugar a minijuegos muy simples, pero antes de hacerlo tienes que registrarte.",
+        "calc": "En este proyecto he creado un programa para calcular los gastos (con TypeScript). He utilizado una plantilla para el diseño y he programado las diferentes funciones para que la calculadora funcione correctamente.",
+        "biblio": "Proyecto web creado con PHP y MariaDB. Es una web en la que tienes un apartado de libros, donde desde la página del administrador los puedes ir gestionando.",
+        "but": "Ver código"
+    },
+    "footer":{
+        "text":"Web desarrollada por Joan Planas"
     }
 }

@@ -29,16 +29,16 @@
             <div class="collapse navbar-collapse menu " id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item"> 
-                        <a class="nav-link" href="#sobreMi">Sobre mi</a>
+                        <a class="nav-link" href="#sobreMi" data-section="menu" data-value="SobreMi">Sobre mi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#estudis">Estudis</a>
+                        <a class="nav-link" href="#estudis" data-section="menu" data-value="estudis">Estudis</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#exp">Experiència</a>
+                        <a class="nav-link" href="#exp" data-section="menu" data-value="exp">Experiència</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projectes</a>
+                        <a class="nav-link" href="#projects" data-section="menu" data-value="projectes">Projectes</a>
                     </li>
                     <div id="flags" class="containerIcon">
                         <div class="itemsIcon" data-language="cat">
@@ -60,28 +60,28 @@
         <div class="sobreMiClass row">
             <div class="informacio col-sm-12 col-md-6">
                 <h1>Joan Planas</h1>
-                <p>
+                <p data-section="sobreMiSeccio" data-value="desc">
                     Soc un programador que ha acabat els estudis aquest any. Tinc 21 anys i no tinc gaire 
                     experiència laboral, però estic molt motivat per aprendre cada vegada més sobre el món 
                     de la programació i agafar més experiència.
                 </p>
 
                 <li class="nav-item dropdown curriculum">
-                    <a class="btn btn-success"  role="button" href="./curriculum/CurriculumCatJoanPlanas.pdf" download="CurriculumJoanPlanasCat" target="_blank">
+                    <a class="btn btn-success"  role="button" href="./curriculum/CurriculumCatJoanPlanas.pdf" download="CurriculumJoanPlanasCat" target="_blank" data-section="sobreMiSeccio" data-value="botCat">
                         Descarregar CV Català
                     </a>
 
-                    <a class="btn btn-success botonsCurr"  role="button" href="./curriculum/CurriculumEspJoanPlanas.pdf" download="CurriculumJoanPlanasESP" target="_blank">
+                    <a class="btn btn-success botonsCurr"  role="button" href="./curriculum/CurriculumEspJoanPlanas.pdf" download="CurriculumJoanPlanasESP" target="_blank" data-section="sobreMiSeccio" data-value="botEsp">
                         Descarregar CV Castellà
                     </a>
                 </li>
             </div>
 
             <div class="contacte col-sm-12 col-md-5 offset-md-1">
-                <h1>Contacte</h1>
+                <h1 data-section="sobreMiSeccio" data-value="contacte">Contacte</h1>
                 <i class="fa-solid fa-phone"></i><span>626 835 513</span> <br>
                 <i class="fa-solid fa-envelope"></i><span>joanplanasole@gmail.com</span> <br>
-                <i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/joanplanasdeveloper/" target="_blank"><span>Enllaç al meu LinkedIn</span></a> <br>
+                <i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/joanplanasdeveloper/" target="_blank"><span data-section="sobreMiSeccio" data-value="enll">Enllaç al meu LinkedIn</span></a> <br>
             </div>
         </div>
 
@@ -94,13 +94,13 @@
 <div class="pagEstudis" id="estudis">
     <p style="visibility: hidden">h</p>
     <div class="container estudisClass">
-            <h1>Estudis</h1>
+            <h1 data-section="estudisSeccio" data-value="titol">Estudis</h1>
             <div class="row row-cols-1 row-cols-md-3 g-4 tarjetasEspai">
                 <div class="col">
                     <div class="card h-100">
                         <div class="card-body">
                             <h5 class="card-title"><b>CETI</b></h5>
-                            <p class="card-text">Ciberseguretat en Entorns de les Tecnologies de la Informació, <b>curs d'especialització</b>.<br>Institut Lacetània, Manresa.</p>
+                            <p class="card-text" data-section="estudisSeccio" data-value="ceti">Ciberseguretat en Entorns de les Tecnologies de la Informació, <b>curs d'especialització</b>.<br>Institut Lacetània, Manresa.</p>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">2021-2022</small>
@@ -111,7 +111,7 @@
                     <div class="card h-100">
                         <div class="card-body">
                             <h5 class="card-title"><b>DAM</b></h5>
-                            <p class="card-text">Desenvolupament d’aplicacions multiplataforma, <b>Cicle formatiu de Grau Superior</b>.<br>IES Castellet de Sant Viçens.</p>
+                            <p class="card-text" data-section="estudisSeccio" data-value="dam">Desenvolupament d’aplicacions multiplataforma, <b>Cicle formatiu de Grau Superior</b>.<br>IES Castellet de Sant Viçens.</p>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">2019-2021</small>
@@ -122,7 +122,7 @@
                     <div class="card h-100">
                         <div class="card-body">
                             <h5 class="card-title"><b>SMIX</b></h5>
-                            <p class="card-text">Sistemes Microinformàtics i xarxes, <b>Cicle formatiu de Grau Mitjà</b>.<br>Escola Xarxa de Berga.</p>
+                            <p class="card-text" data-section="estudisSeccio" data-value="smix">Sistemes Microinformàtics i xarxes, <b>Cicle formatiu de Grau Mitjà</b>.<br>Escola Xarxa de Berga.</p>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">2017-2019</small>
@@ -138,13 +138,13 @@
 <div class="pagExp">
     <p id="exp" style="visibility: hidden">h</p>
     <div class="container expClass">
-            <h1>Experiència laboral</h1>
+            <h1 data-section="expSeccio" data-value="titol">Experiència laboral</h1>
             <div class="row row-cols-1 row-cols-md-3 g-4 tarjetasEspai">
                 <div class="col">
                     <div class="card h-100">
                         <div class="card-body">
-                            <h5 class="card-title"><b>Pràctiques a la FUB Manresa - UMnaresa</b></h5>
-                            <p class="card-text">En les pràctiques del curs de ciberseguretat vaig realitzar un pentesting a la FUB de Manresa. </p>
+                            <h5 class="card-title" data-section="expSeccio" data-value="fubTitol"><b>Pràctiques a la FUB Manresa - UManresa</b></h5>
+                            <p class="card-text" data-section="expSeccio" data-value="fub">En les pràctiques del curs de ciberseguretat vaig realitzar un pentesting a la FUB de Manresa. </p>
                         </div>
                         <div class="card-footer">
                             <small>2022</small>
@@ -154,8 +154,8 @@
                 <div class="col">
                     <div class="card h-100">
                         <div class="card-body">
-                            <h5 class="card-title"><b>Pràctiques al Secretariat de Federacions ADF a Catalunya</b></h5>
-                            <p class="card-text">En aquestes pràctiques vaig passar una base de dades amb Access, a MySQL. També vaig crear una web amb Laravel 8 per gestionar-la.</p>
+                            <h5 class="card-title" data-section="expSeccio" data-value="adfTitol"><b>Pràctiques al Secretariat de Federacions ADF a Catalunya</b></h5>
+                            <p class="card-text" data-section="expSeccio" data-value="adf">En aquestes pràctiques vaig passar una base de dades amb Access, a MySQL. També vaig crear una web amb Laravel 8 per gestionar-la.</p>
                         </div>
                         <div class="card-footer">
                             <small>2021</small>
@@ -165,8 +165,8 @@
                 <div class="col">
                     <div class="card h-100">
                         <div class="card-body">
-                            <h5 class="card-title"><b>Pràctiques a l’arxiu comarcal de Berga</b></h5>
-                            <p class="card-text">En aquest centre bàsicament ajudava en el manteniment de sistemes i executava tasques d'ofimàtica. <br></p>
+                            <h5 class="card-title" data-section="expSeccio" data-value="arxiuTitol"><b>Pràctiques a l’arxiu comarcal de Berga</b></h5>
+                            <p class="card-text" data-section="expSeccio" data-value="arxiu">En aquest centre bàsicament ajudava en el manteniment de sistemes i executava tasques d'ofimàtica. <br></p>
                         </div>
                         <div class="card-footer">
                             <small>2019</small>
@@ -183,15 +183,15 @@
     <p id="projects" style="visibility: hidden">h</p>
     <div class="container habClass">
             <div class="laravel">
-                <h1><b>Projectes Laravel: </b></h1>
+                <h1 data-section="projectesSeccio" data-value="titolLar"><b>Projectes Laravel: </b></h1>
                 <div class="row row-cols-1 row-cols-md-2 g-4 tarjetasEspai">
                     <div class="col">
                         <div class="card">
                             <img src="./img/appfut.PNG" class="card-img-top" alt="imagen proyecto app futbolistas">
                             <div class="card-body">
-                                <h5 class="card-title">Base de dades futbolistes.</h5>
-                                <p class="card-text">Aquest web està creat amb Laravel i una base de dades MySQL. Bàsicament, ens permet afegir jugadors de futbol a una base de dades i consultar aquests futbolistes.</p>
-                                <a href="https://github.com/joanplanas7/AppJugadorsFut" class="btn btn-primary" target="_blank">Veure codi</a>
+                                <h5 class="card-title" data-section="projectesSeccio" data-value="titolFut">Base de dades futbolistes</h5>
+                                <p class="card-text" data-section="projectesSeccio" data-value="fut">Aquest web està creat amb Laravel i una base de dades MySQL. Bàsicament, ens permet afegir jugadors de futbol a una base de dades i consultar aquests futbolistes.</p>
+                                <a href="https://github.com/joanplanas7/AppJugadorsFut" class="btn btn-primary" target="_blank" data-section="projectesSeccio" data-value="but">Veure codi</a>
                             </div>
                         </div>
                     </div>
@@ -199,24 +199,24 @@
                         <div class="card">
                             <img src="./img/projecte.PNG" class="card-img-top" alt="imagen web para ver aplicaciones">
                             <div class="card-body">
-                                <h5 class="card-title">Projecte final de curs de DAM</h5>
-                                <p class="card-text">Al meu projecte de final de curs vaig realitzar una web creada amb Laravel 8 i una base de dades amb MySQL. Aquesta web està feta per pujar els meus projectes de jocs i aplicacions, i que els usuaris registrats puguin descarregar-se-les i puntuar-les. També hi ha un apartat on podeu trobar aplicacions generades per altres persones.</p>
-                                <a href="https://github.com/joanplanas7/ProjecteDAMJoanPlanas" class="btn btn-primary" target="_blank">Veure codi</a>
+                                <h5 class="card-title" data-section="projectesSeccio" data-value="titolFinal">Projecte final de curs de DAM</h5>
+                                <p class="card-text" data-section="projectesSeccio" data-value="final">Al meu projecte de final de curs vaig realitzar una web creada amb Laravel 8 i una base de dades amb MySQL. Aquesta web està feta per pujar els meus projectes de jocs i aplicacions, i que els usuaris registrats puguin descarregar-se-les i puntuar-les. També hi ha un apartat on podeu trobar aplicacions generades per altres persones.</p>
+                                <a href="https://github.com/joanplanas7/ProjecteDAMJoanPlanas" class="btn btn-primary" target="_blank" data-section="projectesSeccio" data-value="but">Veure codi</a>
                             </div>
                         </div>
                     </div>
               </div>
             </div>
             <div class="angular">
-                <h1><b>Projectes Angular: </b></h1>
+                <h1 data-section="projectesSeccio" data-value="titolAn"><b>Projectes Angular: </b></h1>
                 <div class="row row-cols-1 row-cols-md-2 g-4 tarjetasEspai">
                     <div class="col">
                         <div class="card">
                             <img src="./img/spotyApp.PNG" class="card-img-top" alt="imagen web spotify">
                             <div class="card-body">
                                 <h5 class="card-title">SpotifyApp</h5>
-                                <p class="card-text">Web creada amb Angular, en la qual utilitzo la api de Spotify per poder buscar artistes i cançons.</p>
-                                <a href="https://github.com/joanplanas7/SpotifyApp" class="btn btn-primary" target="_blank">Veure codi</a>
+                                <p class="card-text" data-section="projectesSeccio" data-value="spoti">Web creada amb Angular, en la qual utilitzo la api de Spotify per poder buscar artistes i cançons.</p>
+                                <a href="https://github.com/joanplanas7/SpotifyApp" class="btn btn-primary" target="_blank" data-section="projectesSeccio" data-value="but">Veure codi</a>
                             </div>
                         </div>
                     </div>
@@ -224,24 +224,24 @@
                         <div class="card">
                             <img src="./img/anime.PNG" class="card-img-top" alt="imagen web anime">
                             <div class="card-body">
-                                <h5 class="card-title">Personatges anime</h5>
-                                <p class="card-text">Projecte creat amb Angular on pots consultar personatges de l'anime One Piece.</p>
-                                <a href="https://github.com/joanplanas7/Anime" class="btn btn-primary" target="_blank">Veure codi</a>
+                                <h5 class="card-title" data-section="projectesSeccio" data-value="titolAnime">Personatges anime</h5>
+                                <p class="card-text" data-section="projectesSeccio" data-value="anime">Projecte creat amb Angular on pots consultar personatges de l'anime One Piece.</p>
+                                <a href="https://github.com/joanplanas7/Anime" class="btn btn-primary" target="_blank" data-section="projectesSeccio" data-value="but">Veure codi</a>
                             </div>
                         </div>
                     </div>
               </div>
             </div>
             <div class="angular">
-                <h1><b>Projectes Python: </b></h1>
+                <h1 data-section="projectesSeccio" data-value="titolPy"><b>Projectes Python: </b></h1>
                 <div class="row row-cols-1 row-cols-md-2 g-4 tarjetasEspai">
                     <div class="col">
                         <div class="card">
                             <img src="./img/asteroids.PNG" class="card-img-top" alt="imagen juega asteroides">
                             <div class="card-body">
                                 <h5 class="card-title">Asteroids</h5>
-                                <p class="card-text">Joc de Python on has de destruir i esquivar esteroides.</p>
-                                <a href="https://github.com/joanplanas7/AsteroidsPython" class="btn btn-primary" target="_blank">Veure codi</a>
+                                <p class="card-text" data-section="projectesSeccio" data-value="asteroids">Joc de Python on has de destruir i esquivar esteroides.</p>
+                                <a href="https://github.com/joanplanas7/AsteroidsPython" class="btn btn-primary" target="_blank" data-section="projectesSeccio" data-value="but">Veure codi</a>
                             </div>
                         </div>
                     </div>
@@ -249,9 +249,9 @@
                         <div class="card ">
                             <img src="./img/chatGrup.PNG" class="card-img-top" alt="imagen app chat grupal">
                             <div class="card-body">
-                                <h5 class="card-title">Xat grupal</h5>
-                                <p class="card-text">Xat grupal creat amb Python, en el qual hi ha un servidor i pots obrir tots els xats que vulguis. El servidor us avisa quan es connecta algú nou i quan es desconnecta la gent.</p>
-                                <a href="https://github.com/joanplanas7/ChatGrupal" class="btn btn-primary" target="_blank">Veure codi</a>
+                                <h5 class="card-title" data-section="projectesSeccio" data-value="titolXat">Xat grupal</h5>
+                                <p class="card-text" data-section="projectesSeccio" data-value="xat">Xat grupal creat amb Python, en el qual hi ha un servidor i pots obrir tots els xats que vulguis. El servidor us avisa quan es connecta algú nou i quan es desconnecta la gent.</p>
+                                <a href="https://github.com/joanplanas7/ChatGrupal" class="btn btn-primary" target="_blank" data-section="projectesSeccio" data-value="but">Veure codi</a>
                             </div>
                         </div>
                     </div>
@@ -259,24 +259,24 @@
                         <div class="card">
                             <img src="./img/botTelegram.PNG" class="card-img-top" alt="imagen bot de telegram">
                             <div class="card-body">
-                                <h5 class="card-title">Bot de telegram</h5>
-                                <p class="card-text">Bot de Telegram programat amb Python i una base de dades SQLite. En aquest bot pots jugar a minijocs molt simples, però abans de fer-ho t'has de registrar.</p>
-                                <a href="https://github.com/joanplanas7/BotTelegramJoan" class="btn btn-primary" target="_blank">Veure codi</a>
+                                <h5 class="card-title" data-section="projectesSeccio" data-value="titolBot">Bot de telegram</h5>
+                                <p class="card-text" data-section="projectesSeccio" data-value="bot">Bot de Telegram programat amb Python i una base de dades SQLite. En aquest bot pots jugar a minijocs molt simples, però abans de fer-ho t'has de registrar.</p>
+                                <a href="https://github.com/joanplanas7/BotTelegramJoan" class="btn btn-primary" target="_blank" data-section="projectesSeccio" data-value="but">Veure codi</a>
                             </div>
                         </div>
                     </div>
               </div>
             </div>
             <div class="angular">
-                <h1><b>Altres projectes: </b></h1>
+                <h1 data-section="projectesSeccio" data-value="titolAltres"><b>Altres projectes: </b></h1>
                 <div class="row row-cols-1 row-cols-md-2 g-4 tarjetasEspai">
                     <div class="col">
                         <div class="card">
                             <img src="./img/contGastos.PNG" class="card-img-top" alt="imagen web controlador de pressupuesto">
                             <div class="card-body">
-                                <h5 class="card-title">Calculadora de pressupost</h5>
-                                <p class="card-text">En aquest projecte he creat un programa per calcular les despeses (amb TypeScript). He fet servir una plantilla pel disseny i he programat les diferents funcions per fer que la calculadora funcioni correctament. </p>
-                                <a href="https://github.com/joanplanas7/CalculadoraDeGastos" class="btn btn-primary" target="_blank">Veure codi</a>
+                                <h5 class="card-title" data-section="projectesSeccio" data-value="titolCalc">Calculadora de pressupost</h5>
+                                <p class="card-text" data-section="projectesSeccio" data-value="calc">En aquest projecte he creat un programa per calcular les despeses (amb TypeScript). He fet servir una plantilla pel disseny i he programat les diferents funcions per fer que la calculadora funcioni correctament. </p>
+                                <a href="https://github.com/joanplanas7/CalculadoraDeGastos" class="btn btn-primary" target="_blank" data-section="projectesSeccio" data-value="but">Veure codi</a>
                             </div>
                         </div>
                     </div>
@@ -284,9 +284,9 @@
                         <div class="card">
                             <img src="./img/biblio.PNG" class="card-img-top" alt="imagen web biblioteca">
                             <div class="card-body">
-                                <h5 class="card-title">Web biblioteca</h5>
-                                <p class="card-text">Projecte web creat amb PHP i MariaDB. És una web on tens un apartat de llibres, on des de la pàgina de l'administrador els pots anar gestionant.</p>
-                                <a href="https://github.com/joanplanas7/BibliotecaPHPIMariaDB" class="btn btn-primary" target="_blank">Veure codi</a>
+                                <h5 class="card-title" data-section="projectesSeccio" data-value="titolBiblio">Web biblioteca</h5>
+                                <p class="card-text" data-section="projectesSeccio" data-value="biblio">Projecte web creat amb PHP i MariaDB. És una web on tens un apartat de llibres, on des de la pàgina de l'administrador els pots anar gestionant.</p>
+                                <a href="https://github.com/joanplanas7/BibliotecaPHPIMariaDB" class="btn btn-primary" target="_blank" data-section="projectesSeccio" data-value="but">Veure codi</a>
                             </div>
                         </div>
                     </div>
@@ -299,7 +299,7 @@
 <footer class="footerPers" id="#footer">
     <div class="" id="footer">
         <br>
-        <h4>Web desenvolupada per Joan Planas</h4>
+        <h4 data-section="footer" data-value="text">Web desenvolupada per Joan Planas</h4>
     </div>
     <div class="footerXarxes">
         <a href="https://www.linkedin.com/in/joanplanasdeveloper/" target="_blank"><i class="fab fa-linkedin"></i></a>
