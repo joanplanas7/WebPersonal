@@ -32,6 +32,7 @@
         "titolAn": "<b>Projectes Angular: </b>",
         "titolPy": "<b>Projectes Python: </b>",
         "titolAltres": "<b>Altres projectes: </b>",
+        
         "titolFut": "Base de dades futbolistes",
         "titolFinal": "Projecte final de curs de DAM",
         "titolAnime": "Personatges anime",
@@ -48,6 +49,9 @@
         "bot": "Bot de Telegram programat amb Python i una base de dades SQLite. En aquest bot pots jugar a minijocs molt simples, però abans de fer-ho t'has de registrar.",
         "calc": "En aquest projecte he creat un programa per calcular les despeses (amb TypeScript). He fet servir una plantilla pel disseny i he programat les diferents funcions per fer que la calculadora funcioni correctament.",
         "biblio": "Projecte web creat amb PHP i MariaDB. És una web on tens un apartat de llibres, on des de la pàgina de l'administrador els pots anar gestionant.",
+        "titolBotiga": "Botiga online",
+        "botiga": "Projecte creat amb Angular 12 per al frontend i utilitzo la dependència de json-server per al backend (en un futur tinc pensat implementar-ho amb Node). Aquesta web simula la pàgina d'una empresa, on tens diversos productes i els pots comprar des de la mateixa web. De moment no està implementat cap mètode de pagament, per la qual cosa els clients haurien de pagar en persona.",
+        
         "but": "Veure codi"
     },
     "footer":{
