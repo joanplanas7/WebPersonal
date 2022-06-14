@@ -51,7 +51,9 @@
         "biblio": "Proyecto web creado con PHP y MariaDB. Es una web en la que tienes un apartado de libros, donde desde la página del administrador los puedes ir gestionando.",
         "titolBotiga": "Tienda online",
         "botiga": "Proyecto creado con Angular 12 para el frontend y utilizo la dependencia de json-server para el backend (en un futuro tengo pensado implementarlo con Node). Esta web simula la página de una empresa, en la cual tienes varios productos y los puedes comprar desde la propia web. De momento no está implementado ningún método de pago, por lo cual los clientes deberían pagar en persona.",
-        
+        "titolGesEmpleats": "Gestión de empleados",
+        "gesEmpleats": "Esta web está creada con Laravel 8 y una base de datos MySQL. Incluye una página de inicio de sesión, ja que para poder acceder a la gestión de empleados tienes que registrarte o iniciar sesión con tu usuario. Una vez loggeado tienes un crud para poder gestionar los empleados de tu empresa. Es un proyecto activo y aún se van añadiendo funciones.",
+
         "but": "Ver código"
     },
     "footer":{
