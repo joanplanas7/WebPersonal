@@ -25,7 +25,9 @@
         "arxiuTitol": "<b>Prácticas en el archivo comarcal de Berga</b>",
         "fub": "En las prácticas del curso de ciberseguridad realicé un pentesting en la FUB de Manresa.",
         "adf": "En estas prácticas pasé una base de datos con Access, a MySQL. También creé una web con Laravel 8 para gestionarla.",
-        "arxiu": "En ese centro básicamente ayudaba en el mantenimiento de sistemas y ejecutaba tareas de ofimática."
+        "arxiu": "En ese centro básicamente ayudaba en el mantenimiento de sistemas y ejecutaba tareas de ofimática.",
+        "covercar": "En esta empresa estoy trabajando a jornada completa como programador full-stack. Utilizo Angular para el frontend, Symfony para el backend y Mysql por la base de datos.",
+        "act": "Actualidad"
     },
     "projectesSeccio": {
         "titolLar": "<b>Proyectos Laravel: </b>",
