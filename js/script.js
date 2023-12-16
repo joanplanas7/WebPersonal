@@ -36,7 +36,6 @@ butIng.addEventListener('click', ()=>{
 const textsChange = document.querySelectorAll("[data-section]");
 
 const changeLanguage = async (language)=>{
-    console.log('Este es un mensaje de registro en la consola.');
     const json = await fetch(`./languages/${language}.json`);
     const text = await json.json();
     for (let textChange of textsChange){

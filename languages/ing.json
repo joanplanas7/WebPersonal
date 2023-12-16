@@ -1,26 +1,26 @@
 {
     "menu": {
-        "SobreMi": "Sobre mi",
-        "estudis": "Estudis",
-        "exp": "Experiència",
-        "projectes": "Projectes"
+        "SobreMi": "About me",
+        "estudis": "Studies",
+        "exp": "Work experience",
+        "projectes": "Projects"
     },
     "sobreMiSeccio": {
         "desc": "Soc un programador full stack amb alguns coneixements en sistemes. Actualment, em trobo treballant en un gran projecte amb una empresa (Covercar), on aplico les meves habilitats per dissenyar i desenvolupar programari per gestionar tots els departaments de l'empresa.",
         "desc2": "La meva visió a llarg termini és construir el meu propi camí empresarial, ja que en ment muntar la meva pròpia empresa per crear aplicacions per a tercers. Ara mateix estic centrat en adquirir l'experiència i els coneixements necessaris per fer realitat aquest objectiu en un futur llunyà.",
-        "botCat": "Descarregar CV Català",
-        "botEsp": "Descarregar CV Castellà",
-        "contacte": "Contacte",
-        "enll": "Enllaç del meu LinkedIn"
+        "botCat": "Download Catalan CV",
+        "botEsp": "Download Spanish CV",
+        "contacte": "Contact",
+        "enll": "Link from my LinkedIn"
     },
     "estudisSeccio":{
-        "titol": "Estudis",
+        "titol": "Studies",
         "ceti": "Ciberseguretat en Entorns de les Tecnologies de la Informació, <b>curs d'especialització</b>.<br>Institut Lacetània, Manresa.",
         "dam": "Desenvolupament d’aplicacions multiplataforma, <b>Cicle formatiu de Grau Superior</b>.<br>IES Castellet de Sant Viçens.",
         "smix":"Sistemes Microinformàtics i xarxes, <b>Cicle formatiu de Grau Mitjà</b>.<br>Escola Xarxa de Berga."
     },
     "expSeccio": {
-        "titol": "Experiència laboral",
+        "titol": "Work experience",
         "fubTitol": "<b>Pràctiques a la FUB Manresa - UManresa</b>",
         "adfTitol": "<b>Pràctiques al Secretariat de Federacions ADF a Catalunya</b>",
         "arxiuTitol": "<b>Pràctiques a l’arxiu comarcal de Berga</b>",
@@ -28,7 +28,7 @@
         "adf": "En aquestes pràctiques vaig passar una base de dades amb Access, a MySQL. També vaig crear una web amb Laravel 8 per gestionar-la.",
         "arxiu": "En aquest centre bàsicament ajudava en el manteniment de sistemes i executava tasques d'ofimàtica.",
         "covercar": "En aquesta empresa estic treballant a jornada completa com a programador full-stack. Utilitzo Angular per al frontend, Symfony per al backend i Mysql per la base de dades.",
-        "act": "Actualitat"
+        "act": "Present"
     },
     "projectesSeccio": {
         "titolLar": "<b>Projectes Laravel: </b>",
@@ -57,9 +57,9 @@
         "titolGesEmpleats": "Gestió empleats",
         "gesEmpleats": "Aquesta web està desenvolupada amb Laravel 8 i una base de dades MySQL. Inclou una pàgina d'inici de sessió, ja que per poder accedir a la gestió d'empleats t'has de registrar o iniciar sessió amb el teu usuari. Un cop loggejat tens un Crud per poder gestionar els empleats de la teva empresa. És un projecte actiu i encara s'hi afegeixen funcions.",
 
-        "but": "Veure codi"
+        "but": "View code"
     },
     "footer":{
-        "text":"Web desenvolupada per Joan Planas"
+        "text":"Website developed by Joan Planas"
     }
 }
