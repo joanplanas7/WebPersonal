@@ -1,0 +1,65 @@
+{
+    "menu": {
+        "SobreMi": "Sobre mi",
+        "estudis": "Estudis",
+        "exp": "Experiència",
+        "projectes": "Projectes"
+    },
+    "sobreMiSeccio": {
+        "desc": "Soc un programador full stack amb alguns coneixements en sistemes. Actualment, em trobo treballant en un gran projecte amb una empresa (Covercar), on aplico les meves habilitats per dissenyar i desenvolupar programari per gestionar tots els departaments de l'empresa.",
+        "desc2": "La meva visió a llarg termini és construir el meu propi camí empresarial, ja que en ment muntar la meva pròpia empresa per crear aplicacions per a tercers. Ara mateix estic centrat en adquirir l'experiència i els coneixements necessaris per fer realitat aquest objectiu en un futur llunyà.",
+        "botCat": "Descarregar CV Català",
+        "botEsp": "Descarregar CV Castellà",
+        "contacte": "Contacte",
+        "enll": "Enllaç del meu LinkedIn"
+    },
+    "estudisSeccio":{
+        "titol": "Estudis",
+        "ceti": "Ciberseguretat en Entorns de les Tecnologies de la Informació, <b>curs d'especialització</b>.<br>Institut Lacetània, Manresa.",
+        "dam": "Desenvolupament d’aplicacions multiplataforma, <b>Cicle formatiu de Grau Superior</b>.<br>IES Castellet de Sant Viçens.",
+        "smix":"Sistemes Microinformàtics i xarxes, <b>Cicle formatiu de Grau Mitjà</b>.<br>Escola Xarxa de Berga."
+    },
+    "expSeccio": {
+        "titol": "Experiència laboral",
+        "fubTitol": "<b>Pràctiques a la FUB Manresa - UManresa</b>",
+        "adfTitol": "<b>Pràctiques al Secretariat de Federacions ADF a Catalunya</b>",
+        "arxiuTitol": "<b>Pràctiques a l’arxiu comarcal de Berga</b>",
+        "fub": "En les pràctiques del curs de ciberseguretat vaig realitzar un pentesting a la FUB de Manresa.",
+        "adf": "En aquestes pràctiques vaig passar una base de dades amb Access, a MySQL. També vaig crear una web amb Laravel 8 per gestionar-la.",
+        "arxiu": "En aquest centre bàsicament ajudava en el manteniment de sistemes i executava tasques d'ofimàtica.",
+        "covercar": "En aquesta empresa estic treballant a jornada completa com a programador full-stack. Utilitzo Angular per al frontend, Symfony per al backend i Mysql per la base de dades.",
+        "act": "Actualitat"
+    },
+    "projectesSeccio": {
+        "titolLar": "<b>Projectes Laravel: </b>",
+        "titolAn": "<b>Projectes Angular: </b>",
+        "titolPy": "<b>Projectes Python: </b>",
+        "titolAltres": "<b>Altres projectes: </b>",
+        
+        "titolFut": "Base de dades futbolistes",
+        "titolFinal": "Projecte final de curs de DAM",
+        "titolAnime": "Personatges anime",
+        "titolXat": "Xat grupal",
+        "titolBot": "Bot de telegram",
+        "titolCalc": "Calculadora de pressupost",
+        "titolBiblio": "Web biblioteca",
+        "fut": "Aquest web està creat amb Laravel i una base de dades MySQL. Bàsicament, ens permet afegir jugadors de futbol a una base de dades i consultar aquests futbolistes",
+        "final": "Al meu projecte de final de curs vaig realitzar una web creada amb Laravel 8 i una base de dades amb MySQL. Aquesta web està feta per pujar els meus projectes de jocs i aplicacions, i que els usuaris registrats puguin descarregar-se-les i puntuar-les. També hi ha un apartat on podeu trobar aplicacions generades per altres persones.",
+        "spoti": "Web creada amb Angular, en la qual utilitzo la api de Spotify per poder buscar artistes i cançons.",
+        "anime": "Projecte creat amb Angular on pots consultar personatges de l'anime One Piece.",
+        "asteroids": "Joc de Python on has de destruir i esquivar esteroides.",
+        "xat": "Xat grupal creat amb Python, en el qual hi ha un servidor i pots obrir tots els xats que vulguis. El servidor us avisa quan es connecta algú nou i quan es desconnecta la gent.",
+        "bot": "Bot de Telegram programat amb Python i una base de dades SQLite. En aquest bot pots jugar a minijocs molt simples, però abans de fer-ho t'has de registrar.",
+        "calc": "En aquest projecte he creat un programa per calcular les despeses (amb TypeScript). He fet servir una plantilla pel disseny i he programat les diferents funcions per fer que la calculadora funcioni correctament.",
+        "biblio": "Projecte web creat amb PHP i MariaDB. És una web on tens un apartat de llibres, on des de la pàgina de l'administrador els pots anar gestionant.",
+        "titolBotiga": "Botiga online",
+        "botiga": "Projecte creat amb Angular 12 per al frontend i utilitzo la dependència de json-server per al backend (en un futur tinc pensat implementar-ho amb Node). Aquesta web simula la pàgina d'una empresa, on tens diversos productes i els pots comprar des de la mateixa web. De moment no està implementat cap mètode de pagament, per la qual cosa els clients haurien de pagar en persona.",
+        "titolGesEmpleats": "Gestió empleats",
+        "gesEmpleats": "Aquesta web està desenvolupada amb Laravel 8 i una base de dades MySQL. Inclou una pàgina d'inici de sessió, ja que per poder accedir a la gestió d'empleats t'has de registrar o iniciar sessió amb el teu usuari. Un cop loggejat tens un Crud per poder gestionar els empleats de la teva empresa. És un projecte actiu i encara s'hi afegeixen funcions.",
+
+        "but": "Veure codi"
+    },
+    "footer":{
+        "text":"Web desenvolupada per Joan Planas"
+    }
+}
