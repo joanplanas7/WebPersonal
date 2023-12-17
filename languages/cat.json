@@ -24,6 +24,7 @@
         "fubTitol": "<b>Pràctiques a la FUB Manresa - UManresa</b>",
         "adfTitol": "<b>Pràctiques al Secretariat de Federacions ADF a Catalunya</b>",
         "arxiuTitol": "<b>Pràctiques a l’arxiu comarcal de Berga</b>",
+        "coverTitol": "<b>Programador Full Stack - Covercar S.A </b>",
         "fub": "En les pràctiques del curs de ciberseguretat vaig realitzar un pentesting a la FUB de Manresa.",
         "adf": "En aquestes pràctiques vaig passar una base de dades amb Access, a MySQL. També vaig crear una web amb Laravel 8 per gestionar-la.",
         "arxiu": "En aquest centre bàsicament ajudava en el manteniment de sistemes i executava tasques d'ofimàtica.",
